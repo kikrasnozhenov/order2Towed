@@ -1,0 +1,109 @@
+body {
+  background: url("need-info.png") no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Arial, serif;
+  margin: 0px;
+}
+.content {
+  width: 850px;
+  background: #fff; 
+  margin: auto;
+}
+.contacts {
+  color:red;
+  font-weight: bold;
+}
+.logo{
+  width: 200px;
+  padding: 30px 15px 30px 30px;
+  vertical-align: middle;
+}
+.logo:hover {
+  transform: scale(1.15, 1.15);
+}
+
+.icon-phone {
+  width: 30px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.icon-phone:hover {
+  transform: scale(1.2, 1.2);
+}
+.phone {
+  display: inline-block;
+  vertical-align: middle;
+}
+.location {
+  display: inline-block;
+  vertical-align: middle;
+}
+.icon-location {
+  width: 45px;
+}
+.icon-location:hover {
+  transform: scale(1.2, 1.2);
+}
+.navigation {
+  float: right;
+  margin-top: 45px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.heading {
+  padding: 10px;
+  margin: 0 auto;
+  background: #EDEDED;
+}
+.heading-info {
+  padding: 10px 0px 0px 25px;
+  margin-bottom: 10px;
+}
+.heading-info:hover {
+  color: red;
+}
+
+.properties-container {
+  padding: 10px;
+  background: #fff;
+  margin: 0 auto;
+}
+.filter-info {
+  margin-left: 24px;
+}
+.list {
+  border-top: 2px solid #EDEDED;
+  padding: 10px;
+  border-bottom: 2px solid #EDEDED;
+}
+
+.filter {
+  padding: 20px;
+  display: inline-block;
+}
+.filter a:hover {
+  background-color: thistle;
+  color: red;
+}
+
+.property {
+  margin-left: 15px;
+  display: inline-block;
+}
+.property:hover {
+  background-color: thistle;
+  color: red;
+}
+.address {
+  float: right;
+  margin-right: 40px;
+  display: inline-block;
+}
+.address:hover {
+  background-color: thistle;
+  color: red;
+}

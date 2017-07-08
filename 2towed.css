@@ -1,0 +1,105 @@
+body {
+  background: url("need-info.png") no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Arial, serif;
+  margin: 0px;
+}
+.content {
+  width: 850px;
+  background: #fff; 
+  margin: auto;
+}
+.contacts {
+  color:red;
+  font-weight: bold;
+}
+.logo{
+  width: 200px;
+  padding: 30px 15px 30px 30px;
+  vertical-align: middle;
+}
+.logo:hover {
+  transform: scale(1.15, 1.15);
+}
+
+.icon-phone {
+  width: 30px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.icon-phone:hover {
+  transform: scale(1.2, 1.2);
+}
+.phone {
+  display: inline-block;
+  vertical-align: middle;
+}
+.location {
+  display: inline-block;
+  vertical-align: middle;
+}
+.icon-location {
+  width: 45px;
+}
+.icon-location:hover {
+  transform: scale(1.2, 1.2);
+}
+.navigation {
+  float: right;
+  margin-top: 45px;
+  margin-right: 5px;
+  display: inline-block;
+}
+.heading {
+  padding: 10px;
+  margin: 0 auto;
+  background: #EDEDED;
+}
+.heading-info {
+  padding: 10px 0px 0px 25px;
+  margin-bottom: 10px;
+}
+.heading-info:hover {
+  color: red;
+}
+.geo-location {
+  margin-left: 35px;
+}
+.maps {
+  padding: 0px 35px 35px 35px;
+  width: 500px;
+  height: 300px; 
+  border: 0px;
+}
+.more-info {
+  float: right;
+  margin-right: 100px;
+}
+.uber {
+  width: 60px;
+  display: inline-block;
+}
+.use-uber {
+  vertical-align: middle;
+  padding: 10px;
+  display: inline-block;
+  float: right;
+}
+.bold-text {
+  font-weight: bold;
+  font-size: 14pt;
+}
+.uber-info {
+  padding-top: 5px;
+}
+.get-taxi {
+
+}
+.taxi-icon {
+  width: 65px;
+  padding-top: 40px;
+
+}
